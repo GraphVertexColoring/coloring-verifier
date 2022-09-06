@@ -16,14 +16,13 @@
 
 https://imada.sdu.dk/~marco/gcp/gcp_check_sol/
 
-| Version               | Date             | Note                                                                                                |
-|-----------------------+------------------+-----------------------------------------------------------------------------------------------------|
-
-| gcp_check_sol-2.8.tgz | 2018-10-29 19:50 | Bug fix: fixed the reporting of the number of edges from an ascii instance. (Thanks to Marko Bukal) |
-| gcp_check_sol-2.7.tgz | 2013-10-23 19:04 | Handling of empty or incomplete colorings in solution file                                          |
-| gcp_check_sol-2.6.tgz | 2013-10-14 09:50 | Added reader for bin instance file format                                                           |
-| test_sol-2.5.tgz      | 2013-08-06 19:03 | Added sum coloring calculation                                                                      |
-| test_sol-2.4.tgz      | 2012-10-04 17:27 | Added interval coloring checker                                                                     |
-| test_sol: V2.3        | 2010-10-06 16:22 | corrected a bug in memory allocation                                                                |
-| test_sol:  V2.2       | 2004-02-10 16:50 |                                                                                                     |
+| Version               | Date               | Note                                                                                                  |
+| --------------------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
+| gcp_check_sol-2.8.tgz | 2018-10-29 19:50   | Bug fix: fixed the reporting of the number of edges from an ascii instance. (Thanks to Marko Bukal)   |
+| gcp_check_sol-2.7.tgz | 2013-10-23 19:04   | Handling of empty or incomplete colorings in solution file                                            |
+| gcp_check_sol-2.6.tgz | 2013-10-14 09:50   | Added reader for bin instance file format                                                             |
+| test_sol-2.5.tgz      | 2013-08-06 19:03   | Added sum coloring calculation                                                                        |
+| test_sol-2.4.tgz      | 2012-10-04 17:27   | Added interval coloring checker                                                                       |
+| test_sol: V2.3        | 2010-10-06 16:22   | corrected a bug in memory allocation                                                                  |
+| test_sol:  V2.2       | 2004-02-10 16:50   |                                                                                                       |
 
