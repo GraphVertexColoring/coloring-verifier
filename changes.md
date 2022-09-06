@@ -12,9 +12,9 @@
 
 
 
-## Previous versions available at:
+## Previous versions 
 
-https://imada.sdu.dk/~marco/gcp/gcp_check_sol/
+Available at: https://imada.sdu.dk/~marco/gcp/gcp_check_sol
 
 | Version               | Date               | Note                                                                                                  |
 | --------------------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
