@@ -16,8 +16,9 @@
 
 https://imada.sdu.dk/~marco/gcp/gcp_check_sol/
 
-|                       |                  |                                                                                                     |
+| Version               | Date             | Note                                                                                                |
 |-----------------------+------------------+-----------------------------------------------------------------------------------------------------|
+
 | gcp_check_sol-2.8.tgz | 2018-10-29 19:50 | Bug fix: fixed the reporting of the number of edges from an ascii instance. (Thanks to Marko Bukal) |
 | gcp_check_sol-2.7.tgz | 2013-10-23 19:04 | Handling of empty or incomplete colorings in solution file                                          |
 | gcp_check_sol-2.6.tgz | 2013-10-14 09:50 | Added reader for bin instance file format                                                           |
