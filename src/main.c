@@ -1,6 +1,6 @@
 /*****************************************************************************/
 /*                                                                           */
-/* Version:  3.0   Date:  06/09/2022   File: main.c                          */
+/* Version:  4.0   Date:  2004-2024    File: main.c                          */
 /* Author:  Marco Chiarandini                                                */
 /* email: marco@imada.sdu.dk                                                 */
 /*                                                                           */
@@ -9,28 +9,30 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "test_sol.h"
+#include "globals.h"
+#include "utilities.h"
+#include "bin2asc.h"
+#include "checker.h"
 
 
 int **solution_sets;
 int *solution_sizes;
 long int **constraints_matrix;
- long int NUM_COL;
- long int SUM_COL;
- long int MIN_COL;
- long int MAX_COL;
- long int NUM_EDGES;
- long int NUM_NODES;
+long int NUM_COL;
+long int SUM_COL;
+long int MIN_COL;
+long int MAX_COL;
+long int NUM_EDGES;
+long int NUM_NODES;
 float DENSITY;
- long int COLORED_NODES;
- long int CONF_NODES;
- long int CONF_EDGES;
- long int NOT_IN_LIST;
- long int SET_SIZE;
+long int COLORED_NODES;
+long int CONF_NODES;
+long int CONF_EDGES;
+long int NOT_IN_LIST;
+long int SET_SIZE;
 const char *instance_name;
 const char *solution_name;
 int problem;
-
 
 int main( argc, argv )
      int     argc;

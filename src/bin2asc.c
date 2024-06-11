@@ -6,12 +6,18 @@
    MT
 */
 
-#include "test_sol.h"
+#include "bin2asc.h"
+
+
+
+char Bitmap[MAX_NR_VERTICES][MAX_NR_VERTICESdiv8];
+char Preamble[MAX_PREAMBLE];
+
 
 const char masks[ 8 ] = { 0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80 };
 
 
-int get_params(void);
+//int get_params(void);
 /* ====================================================== */
 
 char get_edge(  int i,  int j )

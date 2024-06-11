@@ -1,6 +1,8 @@
-## Version 3.0
+## Change History
 
-- 06 Sept 2022. Moved to git.
+- 11 June 2024. Refactoring. v3.1
+
+- 06 Sept 2022. Moved to git. v3.0
 
 - 20 May 2020. Contribution by Willem van Hoeve. Updated test_sol.c to scan for "c "
   and "p " (with a space) to avoid that when parsing the dimension of

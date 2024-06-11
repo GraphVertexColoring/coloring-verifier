@@ -2,10 +2,10 @@ PROG = ./coloring-verifier
 #CFLAGS = -Wall -static -ansi -pedantic
 #LDFLAGS = -lm  
 
-OBJ=bin2asc.o test_sol.o
+OBJ=bin2asc.o utilities.o checker.o
 
 $(PROG): $(OBJ)
-	$(CC) $(CFLAGS) $(OBJ) main.c -o $(PROG) $(LDFLAGS)
+	$(CC) $(CFLAGS) -o $(PROG) $(LDFLAGS) $(OBJ) main.c 
 
 clean:
 	rm -f *~ *.o $(PROG)

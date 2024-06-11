@@ -1,6 +1,6 @@
-# Coloring verifier
+# Graph Vertex-Coloring Verifier
 
-Coloring-verifier is a small program to verify solutions to graph coloring problems in
+Coloring-verifier is a small program to verify solutions to graph vertex-coloring problems in
 the context of the DIMACS Computational Challenges.  
 
 Two input files are
@@ -10,13 +10,13 @@ http://mat.gsia.cmu.edu/COLOR04/ for details), and the solution file.
 The solution file has to be an ASCII file consisting of a single column
 of numbers. Each number represents the color assigned to the node
 numbered as the corresponding row number. Both colors and nodes are
-assumed to start with 1. 
+assumed to start at 1. 
 
-A directory called "examples" is included in the archive with an
+A directory called "examples" is included with an
 example of instance and two solutions: one feasible and another
-infeasible for the classical vertex graph coloring problem.
+infeasible for the classical graph vertex-coloring problem.
 
-In case a solution is not feasible the program returns the number of
+In case a solution is not feasible, the program returns the number of
 constraint violations. This number is computed as number of conflicting
 edges, that is, edges with ending nodes having the same
 color. Furthermore, it also returns the number of nodes involved in at
@@ -24,7 +24,7 @@ least one conflict.
 
 The verifier can be used for the following problems:
 
-1. vertex graph coloring 
+1. graph vertex-coloring 
 2. list coloring
 3. set coloring
 4. T coloring
@@ -41,7 +41,7 @@ Makefile by the `make` command should suffice.
 
 
 
-See test_sol --help for more details.
+See `coloring-verifier --help` for more details.
 
 
 ---
