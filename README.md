@@ -28,9 +28,9 @@ The verifier can be used for the following problems:
 2. list coloring
 3. set coloring
 4. T coloring
-5. set-T-coloring. 
+5. set-T-coloring
 6. interval coloring
-7. sum coloring
+7. sum coloring.
 
 
 ## BUILDING
