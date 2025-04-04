@@ -34,26 +34,23 @@ const char *instance_name;
 const char *solution_name;
 int problem;
 
-int main( argc, argv )
+unsigned short int main( argc, argv )
      int     argc;
      char    *argv[];
 {
 
-  char proper;
-
   checkOptions("test_sol", argc, argv );
 
-  proper = checkConstraints();
+  unsigned short int errno = checkConstraints();
   /*num_of_viol = count_violations();*/
-  
-  
+    
   printf("\ninstance: %s\n",instance_name);
   printf("solution: %s\n",solution_name);
   printf("nodes: %ld\n",NUM_NODES);
   printf("edges: %ld\n",NUM_EDGES);
   printf("density: %.3f\n",DENSITY);
   
-  if (proper)
+  if (errno==0)
     {
       printf("+---------------------------------------------------------+\n");
       printf("| The proposed coloring uses %4ld colors                  |\n",NUM_COL);
@@ -79,5 +76,5 @@ int main( argc, argv )
       printf("+---------------------------------------------------------------------+\n");
     }
 
-  return EXIT_SUCCESS;
+  return errno;
 }

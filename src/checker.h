@@ -23,7 +23,7 @@
 
 
 
-char checkConstraints();
+unsigned short int checkConstraints();
 void checkConstraints_ascii();
 void checkConstraints_bin();
 void readSolution();
