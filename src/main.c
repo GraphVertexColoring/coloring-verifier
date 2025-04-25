@@ -41,7 +41,7 @@ unsigned short int main( argc, argv )
 
   checkOptions("test_sol", argc, argv );
 
-  unsigned short int errno = checkConstraints();
+  unsigned short int my_errno = checkConstraints();
   /*num_of_viol = count_violations();*/
     
   printf("\ninstance: %s\n",instance_name);
@@ -50,7 +50,7 @@ unsigned short int main( argc, argv )
   printf("edges: %ld\n",NUM_EDGES);
   printf("density: %.3f\n",DENSITY);
   
-  if (errno==0)
+  if (my_errno==0)
     {
       printf("+---------------------------------------------------------+\n");
       printf("| The proposed coloring uses %4ld colors                  |\n",NUM_COL);
@@ -76,5 +76,5 @@ unsigned short int main( argc, argv )
       printf("+---------------------------------------------------------------------+\n");
     }
 
-  return errno;
+  return my_errno;
 }
